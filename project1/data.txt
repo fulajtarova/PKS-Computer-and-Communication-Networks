@@ -1,0 +1,79 @@
+#ethertypes
+0800:IPv4
+0806:ARP
+88cc:LLDP
+86dd:IPv6
+9000:ECTP
+#protocol
+1:ICMP
+2:IGMP
+6:TCP
+17:UDP
+67:PIM
+#tcp_udp
+20:FTP-DATA
+21:FTP-CONTROL
+22:SSH
+23:TELNET
+25:SMTP  
+37:TIME
+53:DNS
+67:DHCP
+68:DHCP
+69:TFTP
+80:HTTP
+110:POP3
+119:NNTP
+137:NETBIOS-NS
+138:NETBIOS-DGM
+139:NETBIOS-SSN
+143:IMAP
+161:SNMP
+162:SNMP-TRAP
+179:BGP
+389:LDAP
+443:HTTPS
+514:SYSLOG
+520:RIP
+1900:SSDP
+5353:MDNS
+17500:DB-LSP-DISC
+33434:TRACEROUTE
+#pid
+2000:CDP
+2004:DTP
+010b:PVSTP+
+809b:AppleTalk
+#sap
+42:STP
+e0:IPX
+f0:NETBIOS
+#flags
+01:FIN
+02:SYN
+04:RST
+08:PSH
+10:ACK
+11:FIN, ACK
+12:SYN, ACK
+14:RST, ACK
+18:PSH, ACK
+19:FIN, PSH, ACK
+20:URG
+#icmp
+0:Echo Reply
+3:Destination Unreachable
+4:Source Quench
+5:Redirect
+8:Echo Request
+9:Router Advertisement
+10:Router Selection
+11:Time Exceeded
+12:Parameter Problem
+13:Timestamp
+14:Timestamp Reply
+15:Information Request
+16:Information Reply
+17:Address Mask Request
+18:Address Mask Reply
+30:Traceroute
